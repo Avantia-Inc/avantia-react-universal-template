@@ -10,6 +10,7 @@ import { initFirebase } from 'shared/src/components/firebase';
 import App from './src/App';
 
 const FirebaseProvider = initFirebase(connect);
+console.disableYellowBox = true;
 
 AppRegistry.registerComponent('mobile', () => () => (
   <Provider store={store}>

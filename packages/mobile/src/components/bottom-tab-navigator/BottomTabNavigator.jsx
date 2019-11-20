@@ -1,10 +1,11 @@
 import React from 'react';
-import { Title } from 'react-native';
 import { createMaterialBottomTabNavigator } from 'react-navigation-material-bottom-tabs';
 
-const Tab1 = () => <Title>Tab 1</Title>;
-const Tab2 = () => <Title>Tab 2</Title>;
-const Tab3 = () => <Title>Tab 3</Title>;
+import Tab from '../tab/Tab';
+
+const Tab1 = () => <Tab title="Tab 1" />;
+const Tab2 = () => <Tab title="Tab 2" />;
+const Tab3 = () => <Tab title="Tab 3" />;
 
 const BottomTabNavigator = createMaterialBottomTabNavigator(
   {
