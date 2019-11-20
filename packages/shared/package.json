@@ -1,0 +1,47 @@
+{
+  "name": "shared",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest",
+    "updatetest": "npm test -- -u"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "@babel/runtime": "^7.7.2",
+    "babel-eslint": "10.0.3",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.6",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "enzyme-to-json": "^3.4.3",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-loader": "3.0.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-react": "7.14.3",
+    "jest": "^24.9.0",
+    "regenerator-runtime": "^0.13.3"
+  },
+  "dependencies": {
+    "firebase": "^7.1.0",
+    "immer": "^4.0.1",
+    "normalizr": "^3.4.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "redux": "^4.0.4",
+    "redux-api-middleware": "^3.0.1",
+    "redux-saga": "^1.1.1",
+    "redux-thunk": "^2.3.0",
+    "uuid": "^3.3.3"
+  }
+}

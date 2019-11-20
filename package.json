@@ -1,0 +1,23 @@
+{
+  "name": "avantia-react-universal-template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "lerna run start:web --stream",
+    "web": "lerna run start:web --stream",
+    "mobile": "lerna run start:mobile --stream",
+    "ios": "lerna run ios --stream",
+    "android": "lerna run android --stream",
+    "lint": "lerna run lint --stream",
+    "build": "lerna run build --stream",
+    "test": "lerna run test --stream",
+    "updatetest": "lerna run updatetest --stream",
+    "watchtest": "lerna run watchtest --stream",
+    "postinstall": "lerna bootstrap"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^3.18.4"
+  }
+}
